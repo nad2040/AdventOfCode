@@ -119,5 +119,4 @@ public class Day15 {
         parse(5,5);
         part2();
     }
-    
 }
