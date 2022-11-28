@@ -50,13 +50,21 @@ public class Day24 {
     }
 
     public static void part1() {
-        for (long i=99999999999999l; i>=11111111111111l; i--) {
-            if ((""+i).indexOf('0')>=0) continue;
-            if (validate(""+i)) {
-                System.out.println(i);
-                break;
-            }
-        }
+        for (int d14=9; d14>0; d14--)
+        for (int d13=9; d13>0; d13--)
+        for (int d12=9; d12>0; d12--)
+        for (int d11=9; d11>0; d11--)
+        for (int d10=9; d10>0; d10--)
+        for (int d9=9; d9>0; d9--)
+        for (int d8=9; d8>0; d8--)
+        for (int d7=9; d7>0; d7--)
+        for (int d6=9; d6>0; d6--)
+        for (int d5=9; d5>0; d5--)
+        for (int d4=9; d4>0; d4--)
+        for (int d3=9; d3>0; d3--)
+        for (int d2=9; d2>0; d2--)
+        for (int d1=9; d1>0; d1--)
+
     }
 
     public static void main(String[] args) throws IOException {
