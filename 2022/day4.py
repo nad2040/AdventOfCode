@@ -28,10 +28,8 @@ def part2():
             r1R = int(line[0].split("-")[1])
             r2L = int(line[1].split("-")[0])
             r2R = int(line[1].split("-")[1])
-            for _ in range(r1L, r1R+1):
-                if _ in range(r2L, r2R+1):
-                    sum += 1
-                    break
+            if r1L <= r2R and r1R >= r2L:
+                sum+=1
     print(sum) 
 
 
